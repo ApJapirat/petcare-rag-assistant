@@ -1,0 +1,28 @@
+# ============================================
+# PetCare RAG Project - Requirements
+# ============================================
+
+# Data & NLP (คนที่ 1)
+pandas
+numpy
+beautifulsoup4
+selenium
+
+# RAG / Model / AI Logic (คนที่ 2)
+sentence-transformers    # Sentence-BERT embeddings
+faiss-cpu                # Vector similarity search
+transformers             # HuggingFace models
+
+# LLM Providers (เลือกตามที่ใช้)
+google-genai             # Gemini API (ใหม่ - แนะนำ)
+google-generativeai      # Gemini API (เก่า - fallback)
+openai                   # OpenAI / Typhoon API (optional)
+
+# Backend / UI (คนที่ 3)
+fastapi                  # API backend
+uvicorn                  # ASGI server for local/Render
+
+# Utilities
+python-dotenv            # Load .env locally
+accelerate               # Model acceleration
+requests                 # HTTP requests (for Ollama)

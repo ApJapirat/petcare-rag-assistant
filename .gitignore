@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.py[cod]
+streamlit-test.log
+streamlit-test.err.log
+streamlit-ui.log
+streamlit-ui.err.log
+logs/*.log
