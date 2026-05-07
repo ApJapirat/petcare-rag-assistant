@@ -247,6 +247,7 @@ google-genai
 google-generativeai
 fastapi
 uvicorn
+streamlit==1.40.0
 python-dotenv
 requests
 ```
